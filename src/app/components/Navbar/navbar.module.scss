@@ -1,0 +1,43 @@
+.header {
+  @apply w-full absolute pl-40 pb-10 pt-10 pr-40  z-40 flex items-center justify-between ;
+}
+
+.navbar {
+  @apply flex flex-row justify-end items-center gap-8 px-8 py-8 ;
+}
+
+.li{
+  @apply text-white font-poppins text-0-8 font-normal leading-normal ;
+}
+
+.paper_button{
+  @apply  rounded-md w-[136px] h-[46px] max-xl:hidden;
+  border: 1px solid rgba(255, 255, 255, 0.20);
+}
+
+.launch_button{
+  @apply  rounded-md w-[136px] h-[46px] bg-purple max-xl:hidden;
+}
+
+
+
+.burgerButton {
+  @apply flex flex-col;
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .navbar {
+@apply flex flex-col;
+    display: none;
+  }
+
+  .menuOpen {
+    @apply  flex flex-col items-end justify-end bg-black w-full max-xl:hidden ;
+
+  }
+
+  .burgerButton {
+    display: block;
+  }
+}

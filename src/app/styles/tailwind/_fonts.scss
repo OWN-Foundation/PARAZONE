@@ -1,0 +1,29 @@
+:root {
+  --poppins: 'Poppins', sans-serif;
+  --ratio: 1.52857;
+  --fontRatio: 1;
+}
+
+:root {
+  --text-3-4: calc(3.4em * var(--fontRatio));
+  --text-3-2: calc(3.2em * var(--fontRatio));
+  --text-3-0: calc(3.0em * var(--fontRatio));
+  --text-2-8: calc(2.8em * var(--fontRatio));
+  --text-2-6: calc(2.6em * var(--fontRatio));
+  --text-2-4: calc(2.4em * var(--fontRatio));
+  --text-2-2: calc(2.2em * var(--fontRatio));
+  --text-2-0: calc(2em * var(--fontRatio));
+  --text-1-8: calc(1.8em * var(--fontRatio));
+  --text-1-6: calc(1.6em * var(--fontRatio));
+  --text-1-4: calc(1.4em * var(--fontRatio));
+  --text-1-2: calc(1.2em * var(--fontRatio));
+  --text-1-0: calc(1em * var(--fontRatio));
+}
+
+html .upper {
+  font-feature-settings: 'case' on;
+}
+
+html[lang='en'] .upper {
+  text-transform: uppercase;
+}

@@ -1,2 +1,1 @@
-# Paralax
-Paralax - OWN Development
+# dialogi-front

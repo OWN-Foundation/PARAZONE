@@ -1,0 +1,50 @@
+.main{
+  @apply  flex  flex-col items-center justify-center  h-[600px]  bg-[#1C1C21] ;
+}
+
+.roadmap {
+  @apply flex bg-[#1C1C21] flex-col  items-center gap-40  ;
+}
+
+.container{
+  @apply flex flex-row gap-20 relative ;
+}
+
+.text{
+  @apply text-white text-1-8 font-poppins justify-center flex ;
+}
+
+.circles_container {
+  @apply justify-center items-center flex flex-col;
+  top:75%;
+  left:15%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.circle {
+  @apply w-[10px] h-[10px] rounded-full bg-[#A44CD3] justify-center items-center flex absolute;
+}
+
+.headline_text{
+  @apply text-[#BBB] text-[20px] font-poppins text-center p-10 mb-[40px]  ;
+}
+.text_1{
+  @apply  text-[#BBB] text-[10px] w-[300px] text-center  absolute  p-10  mt-[200px] font-poppins;
+}
+
+.line1_container {
+  @apply w-full h-[3px]  z-0  ;
+}
+
+.headline_text_1{
+  @apply text-[#BBB] text-[20px] font-poppins text-center absolute mt-[100px];
+}
+
+.text_3{
+  @apply  text-[#BBB] text-[10px] w-[300px] text-center  absolute  p-10  mt-[200px] font-poppins;
+}
+
+.headline_text_bellow{
+  @apply text-[#BBB] text-[20px] font-poppins text-center absolute mt-[100px];
+}

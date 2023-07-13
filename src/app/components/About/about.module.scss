@@ -1,0 +1,49 @@
+
+.main{
+  @apply w-full flex bg-[#1C1C21] p-20 flex-col justify-center items-center  ;
+}
+
+.main_container{
+  @apply flex justify-center items-center flex-row max-xl:flex-col bg-[#1C1C21] gap-40 max-xl:gap-10;
+}
+
+.main_number{
+  @apply font-poppins font-bold text-white text-3-2;
+}
+
+.annotation{
+  @apply text-white text-0-8 font-poppins font-normal;
+}
+
+
+.address_text{
+  @apply text-[#87A2BC];
+}
+
+.button_container{
+  @apply flex flex-row bg-[#1C1C21]  pt-10 gap-14  max-xl:hidden;
+}
+
+.button{
+  @apply w-[176px] h-[46px]  ;
+}
+.button_sec{
+  @apply w-[134px] h-[46px];
+}
+.address_button{
+  @apply  rounded-lg border border-[#87A2BC] flex flex-row items-center px-2 ;
+}
+
+.pz_text{
+  @apply text-[12px]  text-white;
+  font-weight: 500;
+}
+
+.pz_button{
+  @apply bg-[#0153F2] w-[36px] h-[28px] rounded-lg;
+}
+
+.number_ZP_container{
+  @apply flex flex-row gap-6 items-center justify-center;
+}
+

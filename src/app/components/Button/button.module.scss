@@ -1,0 +1,8 @@
+.default_styles {
+  @apply w-[310px] md:w-[320px] lg:w-[420px] xl:w-[520px] h-[48px] bg-black mt-[1px] rounded-md;
+}
+
+.default_styles_name {
+  @apply text-white text-[15px] ;
+  font-feature-settings: 'case' on;
+}

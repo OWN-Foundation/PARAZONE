@@ -1,0 +1,55 @@
+.main{
+  @apply justify-center w-full h-full items-center relative bg-black;
+}
+
+.first_container{
+  @apply  justify-center  items-center flex flex-row p-20;
+}
+
+.text_container{
+  @apply w-[606px] h-[406px] justify-center flex flex-col p-10;
+}
+
+.headline{
+  @apply text-white text-[34px] font-poppins font-normal p-4;
+}
+.text{
+  @apply text-[#BBB] text-[16px] font-poppins  p-4;
+  font-weight: 50;
+}
+
+.line{
+  @apply p-10;
+}
+
+.second_container{
+  @apply justify-center  items-center flex flex-row p-20 gap-40;
+}
+
+.card {
+  @apply relative w-[496px] h-[688px] border border-[#87A2BC] rounded-[20px] flex  justify-end overflow-hidden;
+}
+
+.picture {
+  @apply absolute top-0 w-full h-[260px] object-cover   grayscale;
+  border-radius: 1px 1px 20px 20px;
+}
+
+.headline_text {
+  @apply absolute top-0 z-10 text-white text-[26px] font-poppins w-[496px] h-[260px] text-center p-1  flex  justify-end ;
+  background: linear-gradient(180deg, rgba(46, 39, 70, 0.00) 0%, #2E2646 100%);
+  flex-direction: column;
+
+}
+
+.headline_text_marketplace{
+  @apply text-white text-[26px] font-poppins ;
+}
+.marketplace_container{
+  @apply flex justify-end flex-col w-[496px] gap-4 p-6 pb-16;
+}
+
+.marketplace_text{
+  @apply text-[#BBB] text-[16px] font-poppins;
+  font-weight: 50;
+}

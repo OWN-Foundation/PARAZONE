@@ -1,0 +1,27 @@
+.footer {
+  @apply bg-black text-white h-auto w-full justify-center flex items-center flex-col  ;
+}
+
+.footer_head {
+  @apply w-full flex pl-20  pt-10 pr-20  z-40 flex items-end justify-between ;
+}
+
+.menu {
+  @apply flex items-center gap-14 text-[12px] font-poppins pl-20 ;
+  font-feature-settings: 'case' on;
+  font-weight: 50;
+    }
+
+.li {
+  @apply text-white text-[12px] cursor-pointer;
+
+}
+
+.icon_container{
+  @apply flex flex-row gap-8  ;
+}
+
+.sentence{
+  @apply flex text-[#959595] p-10 mr-[50px] w-full justify-end items-end flex-row text-[12px] font-poppins;
+  font-weight: 50;
+}

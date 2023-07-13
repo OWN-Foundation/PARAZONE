@@ -1,0 +1,13 @@
+.main {
+  @apply justify-center flex pt-[40px] z-40 ;
+}
+
+.container {
+  @apply z-40 fixed top-0 left-0 right-0 bottom-0 flex flex-col justify-center items-center bg-opacity-25 backdrop-blur-[6.5px] gap-4 font-poppins text-white;
+}
+
+
+.input {
+  @apply w-[332px] gap-[8px] items-center p-4 flex rounded-[8px] bg-[#48484F] h-[50px];
+  border: 1px solid #48484F;
+}
