@@ -1,13 +1,34 @@
 .main {
-  @apply justify-center flex pt-[40px] z-40 ;
+  @apply justify-center flex pt-[40px] z-40 max-md:pt-60 ;
 }
-
 .container {
-  @apply z-40 fixed top-0 left-0 right-0 bottom-0 flex flex-col justify-center items-center bg-opacity-25 backdrop-blur-[6.5px] gap-4 font-poppins text-white;
+  @apply absolute top-0 left-0 bottom-0 right-0 w-[402px] h-[400px] max-md:w-[300px] rounded-[20px] z-40 fixed top-0 left-0 right-0 bottom-0 flex flex-col justify-center items-center bg-[#111827] gap-4 font-poppins text-white;
+  margin: auto;
 }
 
 
 .input {
-  @apply w-[332px] gap-[8px] items-center p-4 flex rounded-[8px] bg-[#48484F] h-[50px];
+  @apply w-[332px] max-md:w-[260px]  h-[400px] gap-[8px] items-center p-4 flex rounded-[8px] bg-[#48484F] h-[50px] mt-[10px];
   border: 1px solid #48484F;
+}
+
+.heading{
+  @apply text-[#87A2BC] items-center font-poppins text-[30px];
+}
+
+.subheading{
+  @apply w-[200px] font-light;
+}
+
+.launch_button {
+  @apply rounded-[8px] w-[332px] max-md:w-[260px] h-[50px] bg-purple mt-[16px]  max-md:text-[14px] ;
+}
+
+.button_text{
+  @apply text-1-0 text-white text-center font-poppins font-normal leading-7;
+}
+
+.background {
+  @apply fixed top-0 left-0 right-0 bottom-0   bg-opacity-25 backdrop-blur-[6.5px];
+
 }

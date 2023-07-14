@@ -7,7 +7,7 @@
 }
 
 .li{
-  @apply text-white font-poppins text-0-8 font-normal leading-normal ;
+  @apply text-white font-poppins text-0-8 font-normal leading-normal  cursor-pointer   max-lg:hidden;
 }
 
 .paper_button{
@@ -22,14 +22,14 @@
 
 
 .burgerButton {
-  @apply flex flex-col;
-  display: none;
+  @apply max-xl:hidden;
+  display: block;
 }
 
 @media (max-width: 1024px) {
   .navbar {
-@apply flex flex-col;
-    display: none;
+@apply flex flex-col   max-lg:hidden;
+    display: block;
   }
 
   .menuOpen {
@@ -38,6 +38,7 @@
   }
 
   .burgerButton {
+    @apply max-xl:hidden;
     display: block;
   }
 }

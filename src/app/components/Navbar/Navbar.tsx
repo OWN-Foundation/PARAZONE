@@ -14,7 +14,6 @@ function Navbar() {
         { name: "Developers", href: "/developers", current: false },
         { name: "Blog", href: "/blog", current: false },
         { name: "FAQ", href: "/FAQ", current: false },
-
     ];
 
     const toggleMenu = () => {
@@ -31,8 +30,6 @@ function Navbar() {
                 </Link>
 
                 <button className={styles.burgerButton} onClick={toggleMenu}>
-
-                    <Image src={humburger} alt={"burger menu"} width={30} height={30} />
 
                 </button>
 
