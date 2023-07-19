@@ -1,4 +1,4 @@
-import RootLayout from "@Paralax/app/layout";
+import RootLayout from "../app/layout";
 import React from "react";
 
 const Index = () => {

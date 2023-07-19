@@ -11,7 +11,7 @@
   "dependencies": {
     "@faker-js/faker": "^7.6.0",
     "@fontsource/firago": "^4.5.3",
-    "@fontsource/poppins": "^5.0.4",
+    "@fontsource/poppins": "^5.0.5",
     "@headlessui/react": "^1.7.13",
     "@heroicons/react": "^2.0.13",
     "@next/font": "^13.1.1",

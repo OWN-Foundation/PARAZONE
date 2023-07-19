@@ -1,7 +1,7 @@
 import './globals.scss'
-import Navbar from "@Paralax/app/components/Navbar/Navbar";
-import Head from "@Paralax/app/head";
-import Footer from "@Paralax/app/components/Footer/Footer";
+import Navbar from "../app/components/Navbar/Navbar";
+import Head from "../app/head";
+import Footer from "../app/components/Footer/Footer";
 import React, {} from 'react'
 import useSWR from 'swr'
 import {useSelector} from "react-redux";
@@ -33,6 +33,7 @@ const RootLayout = ({
 
                 <main className={`flex-1 bg-white`}>
                     {children}
+                    <Footer/>
                 </main>
 
 

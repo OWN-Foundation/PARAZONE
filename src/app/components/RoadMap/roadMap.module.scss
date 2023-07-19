@@ -1,13 +1,14 @@
 .main{
-  @apply  flex  flex-col items-center justify-center  h-[600px]  bg-[#1C1C21] ;
+  @apply  flex  flex-col items-center justify-center  h-[800px]  bg-[#1C1C21]   ;
 }
 
 .roadmap {
-  @apply flex bg-[#1C1C21] flex-col  items-center gap-40  ;
+  @apply flex bg-[#1C1C21] flex-col justify-center items-center gap-64 w-[1600px];
+  /* Other existing styles */
 }
 
 .container{
-  @apply flex flex-row gap-20 relative ;
+  @apply flex flex-row  relative justify-center  w-[800px]  ;
 }
 
 .text{
@@ -15,7 +16,7 @@
 }
 
 .circles_container {
-  @apply justify-center items-center flex flex-col;
+  @apply justify-center items-center flex flex-col ;
   top:75%;
   left:15%;
   transform: translate(-50%, -50%);
@@ -26,25 +27,44 @@
   @apply w-[10px] h-[10px] rounded-full bg-[#A44CD3] justify-center items-center flex absolute;
 }
 
-.headline_text{
-  @apply text-[#BBB] text-[20px] font-poppins text-center p-10 mb-[40px]  ;
+.date_text{
+  @apply text-[#BBB] text-[20px] font-poppins text-center p-6 font-medium hover:text-white cursor-pointer w-[300px];
 }
-.text_1{
-  @apply  text-[#BBB] text-[10px] w-[300px] text-center  absolute  p-10  mt-[200px] font-poppins;
-}
-
-.line1_container {
-  @apply w-full h-[3px]  z-0  ;
+.description_text{
+  @apply  text-[#BBB] text-[12px] w-[350px] text-center  absolute  p-10  mt-[200px] font-poppins hover:text-white;
 }
 
-.headline_text_1{
-  @apply text-[#BBB] text-[20px] font-poppins text-center absolute mt-[100px];
+
+
+
+.date_text_1{
+  @apply   text-[#BBB] text-[20px] font-poppins text-center   font-medium hover:text-white  cursor-pointer absolute mb-[250px] w-[300px] h-[40px]  ;
 }
 
-.text_3{
-  @apply  text-[#BBB] text-[10px] w-[300px] text-center  absolute  p-10  mt-[200px] font-poppins;
+.description_text_1{
+  @apply text-[#BBB] text-[12px] w-[350px] text-center  absolute mb-[120px] p-10  font-poppins hover:text-white  ;
 }
 
-.headline_text_bellow{
-  @apply text-[#BBB] text-[20px] font-poppins text-center absolute mt-[100px];
+.circle_1{
+  @apply w-[10px] h-[10px] rounded-full bg-[#A44CD3] justify-center items-center flex absolute;
 }
+
+.time_text_1{
+  @apply   text-[#BBB] text-[20px] font-poppins text-center p-10  font-medium hover:text-purple  cursor-pointer absolute mt-[80px] w-[200px];
+}
+
+.time_text{
+  @apply text-[#BBB] text-[20px] font-poppins text-center p-6 font-medium hover:text-purple cursor-pointer ;
+}
+
+
+.body{
+  @apply flex flex-row justify-between gap-80 w-[1200px] ;
+}
+
+.arrow_container{
+  @apply flex flex-row gap-6 justify-end w-[1600px] pt-40;
+}
+
+
+
