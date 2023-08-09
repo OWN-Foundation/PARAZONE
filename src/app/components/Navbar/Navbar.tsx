@@ -4,10 +4,11 @@ import styles from './navbar.module.scss'
 import Link from "next/link";
 import Image from "next/image";
 import Button from "../Button/Button";
-import humburger from "../../../../../Paralax/public/images/humburger.svg";
-
+import hamburger from "../../../../../Parazone/public/images/humburger.svg";
+import miniLogo from "../../../../public/images/miniLogo.svg";
 function Navbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+
 
     const navigation = [
         { name: "Community", href: "/community", current: false },
@@ -28,10 +29,12 @@ function Navbar() {
                         <Image src={logo} alt={"parazone logo"} width={140} height={30} />
                     </div>
                 </Link>
-
+                <div className={styles.hamburger}>
+                    <Image src={ miniLogo} alt={"logo"} width={30} height={30}  />
                 <button className={styles.burgerButton} onClick={toggleMenu}>
-
+                        <Image src={hamburger} alt={"menu"} width={30} height={30} />
                 </button>
+                </div>
 
                 <ul className={`${styles.navbar} ${isMenuOpen ? styles.menuOpen : ""}`}>
                     {navigation.map((item, index) => (

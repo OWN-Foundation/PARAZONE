@@ -1,9 +1,9 @@
 .header {
-  @apply w-full absolute pl-40 pb-10 pt-10 pr-40  z-40 flex items-center justify-between ;
+  @apply max-lg:pl-20 lg:pl-40 pb-10 pt-10 lg:pr-40 z-40 flex items-center justify-between bg-black flex-row no-underline;
 }
 
 .navbar {
-  @apply flex flex-row justify-end items-center gap-8 px-8 py-8 ;
+  @apply flex lg:flex-row justify-end items-center gap-8 px-8 py-8 font-poppins text-white  items-center;
 }
 
 .li{
@@ -11,34 +11,50 @@
 }
 
 .paper_button{
-  @apply  rounded-md w-[136px] h-[46px] max-xl:hidden;
+  @apply  rounded-md w-[136px] h-[46px] ;
   border: 1px solid rgba(255, 255, 255, 0.20);
 }
 
 .launch_button{
-  @apply  rounded-md w-[136px] h-[46px] bg-purple max-xl:hidden;
+  @apply  rounded-md w-[136px] h-[46px] bg-purple ;
 }
 
 
-
-.burgerButton {
-  @apply max-xl:hidden;
-  display: block;
-}
 
 @media (max-width: 1024px) {
   .navbar {
-@apply flex flex-col   max-lg:hidden;
-    display: block;
+    @apply justify-start;
   }
+
+  .li {
+    @apply text-white font-poppins text-0-8 font-normal leading-normal cursor-pointer w-full;
+    display: none;
+    margin: 2px 0;
+    width: 100%;
+  }
+
+
+  .menuOpen .li {
+  @apply flex top-0;
+  }
+}
+
+.hamburger {
+  @apply flex lg:hidden w-full justify-between;
+}
+
+@media (max-width: 1024px) {
 
   .menuOpen {
-    @apply  flex flex-col items-end justify-end bg-black w-full max-xl:hidden ;
-
+    @apply flex flex-col items-start justify-start fixed top-1/4 left-0 right-0 bottom-0 bg-black z-40 ;
   }
 
-  .burgerButton {
-    @apply max-xl:hidden;
-    display: block;
+  .menuOpen .li {
+    @apply flex items-start justify-start w-full pl-4;
+    margin: 2px 0;
+  }
+
+  .logo {
+    @apply max-lg:hidden;
   }
 }

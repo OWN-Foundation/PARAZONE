@@ -1,27 +1,33 @@
 .footer {
-  @apply bg-black text-white h-auto w-full justify-center flex items-center flex-col  ;
+  @apply  max-lg:pl-2 pl-20 pb-10 pt-10  bg-black text-white h-auto relative flex justify-center flex-row max-lg:flex-col h-full;
 }
 
 .footer_head {
-  @apply w-full flex pl-20  pt-10 pr-20  z-40 flex items-end justify-between ;
+  @apply w-full items-center max-lg:items-start max-lg:p-10 max-lg:gap-4  max-lg:pl-20 flex-row max-lg:flex-col     pt-10 pr-20  z-40 flex  max-md:pl-2 max-md:pr-2 xxl:gap-40 justify-end max-lg:justify-start;
 }
 
 .menu {
-  @apply flex items-center gap-14 text-[12px] font-poppins pl-20 ;
+  @apply  flex xxl:gap-6 text-[12px] font-poppins flex-row   max-lg:flex-col  laptop:gap-8  max-md:gap-2 md:gap-4  max-lg:items-start;
   font-feature-settings: 'case' on;
   font-weight: 50;
     }
 
 .li {
   @apply text-white text-[12px] cursor-pointer;
-
 }
 
+.logo{
+  @apply max-md:mr-[40px] max-md:pb-4 pl-20 flex justify-center w-[220px] h-[30px] max-md:w-[170px];
+}
 .icon_container{
-  @apply flex flex-row gap-8  ;
+  @apply flex flex-row gap-8 max-md:pr-8 max-md:pl-4 max-md:gap-6 p-2;
 }
 
 .sentence{
-  @apply flex text-[#959595] p-10 mr-[50px] w-full justify-end items-end flex-row text-[12px] font-poppins;
+  @apply flex text-[#959595]  mr-[50px]  justify-end items-end flex-row text-[12px] font-poppins  max-md:flex-col max-md:items-start max-md:pr-10 ;
   font-weight: 50;
+}
+
+.burgerButton{
+  @apply flex justify-end items-end;
 }

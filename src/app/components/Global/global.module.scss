@@ -1,0 +1,35 @@
+.main{
+  @apply justify-center h-[1000px] bg-black  relative justify-center items-center flex flex-col;
+}
+
+.title_container{
+  @apply       justify-center items-center text-center p-10 pt-16  flex flex-col  w-full;
+}
+
+.map_container{
+  @apply        justify-center flex items-center p-10 ;
+  z-index: 1;
+}
+
+.main_text {
+  @apply text-white font-poppins text-[34px];
+}
+.second_text{
+  @apply text-[#BBB] font-poppins text-[34px];
+}
+
+.description{
+  @apply text-[#BBB] font-poppins text-[18px] pl-80 pr-80 pt-6 font-light max-md:p-10 max-md:text-[12px] w-full;
+}
+
+.circle {
+  @apply  fixed absolute cursor-pointer mt-[78px] ml-[110px] rounded-full max-xl:hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5);
+}
+
+.circle:hover {
+  box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.8);
+}

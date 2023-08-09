@@ -1,14 +1,13 @@
 .main{
-  @apply  flex  flex-col items-center justify-center  h-[800px]  bg-[#1C1C21]   ;
+  @apply  flex  flex-col items-center justify-center  h-[800px]  bg-[#1C1C21] overflow-auto    ;
 }
 
 .roadmap {
-  @apply flex bg-[#1C1C21] flex-col justify-center items-center gap-64 w-[1600px];
-  /* Other existing styles */
+  @apply flex bg-[#1C1C21] flex-col justify-center items-center gap-64 w-[1600px] max-md:w-[320px] ;
 }
 
 .container{
-  @apply flex flex-row  relative justify-center  w-[800px]  ;
+  @apply flex flex-row  relative justify-center  w-[800px] max-md:w-[320px] max-lg:pl-72 ;
 }
 
 .text{
@@ -28,7 +27,7 @@
 }
 
 .date_text{
-  @apply text-[#BBB] text-[20px] font-poppins text-center p-6 font-medium hover:text-white cursor-pointer w-[300px];
+  @apply text-[#BBB] text-[20px] font-poppins text-center p-6 font-medium hover:text-white cursor-pointer w-[300px] ;
 }
 .description_text{
   @apply  text-[#BBB] text-[12px] w-[350px] text-center  absolute  p-10  mt-[200px] font-poppins hover:text-white;
@@ -59,12 +58,14 @@
 
 
 .body{
-  @apply flex flex-row justify-between gap-80 w-[1200px] ;
+  @apply flex flex-row justify-between gap-80 w-[1200px] max-md:w-[320px]  ;
 }
 
 .arrow_container{
-  @apply flex flex-row gap-6 justify-end w-[1600px] pt-40;
+  @apply flex flex-row gap-6 justify-end w-[1600px] pt-40 max-md:w-[320px];
 }
 
-
+.circle:hover {
+  box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.8);
+}
 

@@ -12,10 +12,9 @@ function Footer() {
   const currentRoute = router.pathname;
   return (
       <footer className={styles.footer}>
+
+          <Image src={logo} alt={"Parazone logo"} className={styles.logo}  width={140} height={30} />
         <div className={styles.footer_head}>
-          <nav className="flex flex-wrap justify-center" aria-label="Footer">
-            <Image src={logo} alt={"Parazone logo"} className={styles.logo} />
-          </nav>
           <ul className={styles.menu}>
             <li>
               <Link href="/Security" className={currentRoute === "/security"
@@ -64,7 +63,7 @@ function Footer() {
 
           </ul>
 
-
+<div className="flex flex-col pl-4 ">
           <div className={styles.icon_container}>
             <Image
                 src={vector}
@@ -89,9 +88,11 @@ function Footer() {
 
 
 
-        </div>
+
         <div className={styles.sentence}>
           <h2> Powered by OWN Foundation </h2>
+        </div>
+        </div>
         </div>
       </footer>
   );

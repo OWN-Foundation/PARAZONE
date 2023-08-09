@@ -4,6 +4,7 @@ import contract from "../../../../public/images/contract.svg";
 import Image from "next/image";
 import line1 from "../../../../public/images/line1.png";
 import arrow from "../../../../public/images/scrollArrow.svg"
+import Circle from "@Paralax/app/components/Circle/Circle";
 const RoadMap = () => {
     return (
         <div className={styles.main}>
@@ -74,7 +75,7 @@ const RoadMap = () => {
 
         <div className={styles.circles_container}>
             <h2 className={styles.time_text}>1st Year</h2>
-            <div className={styles.circle}></div>
+            <div className={styles.circle}>    <Circle/>   </div>
             <h2 className={styles.date_text}>January - 2024</h2>
             <h6 className={styles.description_text}>
                 The Uniswap token enables community ownership and active stewardship of the Protocol. UNI holders govern the Protocol governance process.
