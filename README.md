@@ -1,1 +1,1 @@
-# dialogi-front
+# parazone-front
