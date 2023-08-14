@@ -15,7 +15,7 @@ function Footer() {
 
           <Image src={logo} alt={"Parazone logo"} className={styles.logo}  width={140} height={30} />
         <div className={styles.footer_head}>
-          <ul className={styles.menu}>
+          {/* <ul className={styles.menu}>
             <li>
               <Link href="/Security" className={currentRoute === "/security"
                   ? "text-light"
@@ -61,7 +61,7 @@ function Footer() {
 
             </li>
 
-          </ul>
+          </ul> */}
 
 <div className="flex flex-col pl-4 ">
           <div className={styles.icon_container}>

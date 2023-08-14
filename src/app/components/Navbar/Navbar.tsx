@@ -10,12 +10,12 @@ function Navbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
 
-    const navigation = [
-        { name: "Community", href: "/community", current: false },
-        { name: "Developers", href: "/developers", current: false },
-        { name: "Blog", href: "/blog", current: false },
-        { name: "FAQ", href: "/FAQ", current: false },
-    ];
+    // const navigation = [
+    //     { name: "Community", href: "/community", current: false },
+    //     { name: "Developers", href: "/developers", current: false },
+    //     { name: "Blog", href: "/blog", current: false },
+    //     { name: "FAQ", href: "/FAQ", current: false },
+    // ];
 
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
@@ -37,11 +37,11 @@ function Navbar() {
                 </div>
 
                 <ul className={`${styles.navbar} ${isMenuOpen ? styles.menuOpen : ""}`}>
-                    {navigation.map((item, index) => (
+                    {/* {navigation.map((item, index) => (
                         <li key={index} className={styles.li}>
                             <Link href={item.href}>{item.name}</Link>
                         </li>
-                    ))}
+                    ))} */}
                     <li className={styles.li}>
                         <Link href="https://docs.parazone.io/">
                             <Button

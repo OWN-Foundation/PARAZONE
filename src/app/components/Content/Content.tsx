@@ -32,7 +32,7 @@ const Content = () => {
                     defaultStyleForName={false}
                     classNameForName={styles.button_text}
                     classNameButton={styles.launch_button}
-                    name="Subscribe"
+                    name="Whitelist"
                     onClick={togglePopup}
                 />
                 <Button
