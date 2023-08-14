@@ -7,7 +7,7 @@ import arrow from "../../../../public/images/scrollArrow.svg"
 import Circle from "@Paralax/app/components/Circle/Circle";
 const RoadMap = () => {
     return (
-        <div className={styles.main}>
+        <div className={`${styles.main} scrollbar `}>
 
             <div className={styles.roadmap}>
                 <h2 className={styles.text}>RoadMap</h2>

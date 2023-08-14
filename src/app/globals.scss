@@ -8,3 +8,29 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+
+@layer utilities {
+
+    .scrollbar::-webkit-scrollbar {
+        width: 28px;
+      }
+      .scrollbar::-webkit-scrollbar-track {
+        background-color: transparent;
+      }
+      .scrollbar::-webkit-scrollbar-thumb {
+        background-color: #d6dee1;
+        border-radius: 20px;
+        border: 6px solid transparent;
+        background-clip: content-box;
+      }
+      .scrollbar::-webkit-scrollbar-thumb:hover {
+        background-color: #a8bbbf;
+      }
+      @media (max-width:768px) {
+        .scrollbar::-webkit-scrollbar {
+          width: 0px;
+          height: 0px;
+         
+        }
+      }
+    }
