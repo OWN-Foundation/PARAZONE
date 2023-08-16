@@ -24,8 +24,8 @@ const Content = () => {
                 </h4>
                 <h2 className={styles.title}>
                     Buy and trade on a{" "}
-                    <span className={styles.decentralized}>world's first real estate</span> decentralized
-                     exchange
+                    <span className={styles.decentralized}> World`s First Real Estate</span> Decentralized
+                     Exchange
                 </h2>
                 <Button
                     defaultStyleForButton={false}
