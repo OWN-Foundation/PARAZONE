@@ -90,7 +90,7 @@ function Footer() {
 
 
         <div className={styles.sentence}>
-          <h2> Powered by OWN Foundation </h2>
+          <h2> Powered by One World Network </h2>
         </div>
         </div>
         </div>

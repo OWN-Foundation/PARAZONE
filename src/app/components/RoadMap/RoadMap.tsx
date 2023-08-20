@@ -10,7 +10,7 @@ const RoadMap = () => {
         <div className={`${styles.main} scrollbar `}>
 
             <div className={styles.roadmap}>
-                <h2 className={styles.text}>RoadMap</h2>
+                <h2 className={styles.text}>ROADMAP</h2>
                     <Image
                         src={line1}
                         alt="image"
@@ -23,22 +23,22 @@ const RoadMap = () => {
             <div className={styles.container}>
 
                     <div className={styles.circles_container}>
-                        <h2 className={styles.time_text}>1st Year</h2>
+                        <h2 className={styles.time_text}>1st Milestone</h2>
                         <div className={styles.circle}></div>
-                        <h2 className={styles.date_text}>January - 2024</h2>
+                        <h2 className={styles.date_text}> Q1 - 2023 </h2>
                         <h6 className={styles.description_text}>
-                            The Uniswap token enables community ownership and active stewardship of the Protocol. UNI holders govern the Protocol governance process.
+                        Project Conceptualization, Market Research
                         </h6>
                     </div>
 
 
                     <div className={styles.circles_container}>
-                        <h2 className={styles.date_text_1}>February - 2024</h2>
-                        <h6 className={styles.description_text_1}>
-                            The Uniswap token enables community ownership and active stewardship of the Protocol. UNI holders govern the Protocol governance process.
+                        <h2 className={styles.date_text_1}>Q2 - 2023</h2>
+                        <h6 className={styles.description_text_1}> 
+                        Validate Proof of Concept, Early Adopters and Community Feedback
                         </h6>
                         <div className={styles.circle_1}></div>
-                        <h2 className={styles.time_text_1}>1st Year</h2>
+                        <h2 className={styles.time_text_1}>2st Milestone</h2>
 
                     </div>
 
@@ -49,22 +49,22 @@ const RoadMap = () => {
             <div className={styles.container}>
 
                 <div className={styles.circles_container}>
-                    <h2 className={styles.time_text}>1st Year</h2>
+                    <h2 className={styles.time_text}>3st Milestone</h2>
                     <div className={styles.circle}></div>
-                    <h2 className={styles.date_text}>January - 2024</h2>
+                    <h2 className={styles.date_text}>Q3 - 2023</h2>
                     <h6 className={styles.description_text}>
-                        The Uniswap token enables community ownership and active stewardship of the Protocol. UNI holders govern the Protocol governance process.
+                    Seed Funding Secured, Team Formation, MVP Development and Beta Testing.
                     </h6>
                 </div>
 
 
                 <div className={styles.circles_container}>
-                    <h2 className={styles.date_text_1}>February - 2024</h2>
+                    <h2 className={styles.date_text_1}>Q4 - 2023</h2>
                     <h6 className={styles.description_text_1}>
-                        The Uniswap token enables community ownership and active stewardship of the Protocol. UNI holders govern the Protocol governance process.
+                    Beta Launch and Token Distribution, Expansion and Marketing,
                     </h6>
                     <div className={styles.circle_1}></div>
-                    <h2 className={styles.time_text_1}>1st Year</h2>
+                    <h2 className={styles.time_text_1}>4st Milestone</h2>
 
                 </div>
 
@@ -74,11 +74,11 @@ const RoadMap = () => {
     <div className={styles.container}>
 
         <div className={styles.circles_container}>
-            <h2 className={styles.time_text}>1st Year</h2>
+            <h2 className={styles.time_text}>5st Milestone</h2>
             <div className={styles.circle}>    <Circle/>   </div>
-            <h2 className={styles.date_text}>January - 2024</h2>
+            <h2 className={styles.date_text}>Q1 - 2024</h2>
             <h6 className={styles.description_text}>
-                The Uniswap token enables community ownership and active stewardship of the Protocol. UNI holders govern the Protocol governance process.
+            Innovation and Global Reach, Mainnet Launch and Ecosystem Growth
             </h6>
         </div>
 

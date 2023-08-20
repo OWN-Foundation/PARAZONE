@@ -20,9 +20,8 @@ const Info = () => {
 
            <div className={styles.text_container}>
               <h2 className={styles.headline}>  How it works </h2>
-               <h1 className={styles.text}> Build Defi apps and tools on the largest crypto project on Ethereum. Get started with quick start guides, protocol documentation, a Javascript SDK, and fully open source code.  </h1>
-               <h1 className={styles.text}> Get paid to build the future of finance. Uniswap Governance offers grant funding for people building apps, tools, and activities on the Uniswap Protocol.  </h1>
-               <h1 className={styles.text}> The Uniswap Protocol is managed by a global community of UNI token holders and delegates.  </h1>
+               <h1 className={styles.text}> REAL ESTATE DEVELOPERS - can easily upload their projects to the Parazone IDO Launchpad. This process includes providing detailed project plans and relevant documentation. Once uploaded, the project is tokenized using smart contracts, dividing the project into digital tokens that represent a share of project. Smart contracts execute transparent and secure transactions. All recorded on the blockchain, ensuring a tamper-proof and auditable record. </h1>
+               <h1 className={styles.text}> INVESTORS / TRADERS -  can browse real estate projects on the Parazone Application and purchase project tokens. This direct process allows users to invest in real estate projects without the traditional barriers. Investors have the flexibility to curate a diversified real estate portfolio by acquiring tokens of different projects. This allows for risk mitigation and exposure to a range of property types and locations. The Parazone Application provides real-time insights into property performance, token valuations and potential earnings. </h1>
            </div>
 
     <Image
@@ -54,7 +53,7 @@ const Info = () => {
                         height={290}
                         className={styles.picture}
                     />
-                    <h2 className={styles.headline_text}> For developers </h2>
+                    <h2 className={styles.headline_text}> Real-estate Developers </h2>
 
                     <div className={styles.marketplace_container}>
                     <Image
@@ -65,9 +64,12 @@ const Info = () => {
                     className={styles.bank}
                     />
 
-                        <h3 className={styles.headline_text_marketplace}> Marketplace </h3>
-                        <h6 className={styles.marketplace_text}> Build Defi apps and tools on the largest crypto project on Ethereum. Get started with quick start guides, protocol documentation, a Javascript SDK, and fully open source code.  </h6>
-                        <h6 className={styles.marketplace_text}> Get paid to build the future of finance. Uniswap Governance offers grant funding for people building apps, tools, and activities on the Uniswap Protocol.  </h6>
+                        <h3 className={styles.headline_text_marketplace}> Parazone Offers </h3>
+                        <h6 className={styles.marketplace_text}> Raise Full Investments Within Weeks  </h6>
+                        <h6 className={styles.marketplace_text}> Simultaneously Implement Several Projects </h6>
+                        <h6 className={styles.marketplace_text}> Global Market Exposure and Visibility </h6>
+                        <h6 className={styles.marketplace_text}> Recurring Revenue on a Long-term </h6>
+                        <h6 className={styles.marketplace_text}> Innovative Technological Integrations </h6>
                     </div>
 
                 </div>
@@ -80,7 +82,7 @@ const Info = () => {
                         height={290}
                         className={styles.picture}
                     />
-                    <h2 className={styles.headline_text}> For investors </h2>
+                    <h2 className={styles.headline_text}> Investors / Traders </h2>
 
                     <div className={styles.marketplace_container}>
                         <Image
@@ -91,9 +93,12 @@ const Info = () => {
                             className={styles.bank}
                         />
 
-                        <h3 className={styles.headline_text_marketplace}> Marketplace </h3>
-                        <h6 className={styles.marketplace_text}> The Uniswap Protocol is an open-source protocol for providing liquidity and trading ERC20 tokens on accessible, and efficient exchange activity. The protocol is non-upgradable and designed to be censorship resistant.  </h6>
-                        <h6 className={styles.marketplace_text}> The Uniswap Protocol is managed by a global community of UNI token holders and delegates.  </h6>
+                        <h3 className={styles.headline_text_marketplace}> Parazone Offers </h3>
+                        <h6 className={styles.marketplace_text}>  Globally Diversified Portfolio </h6>
+                        <h6 className={styles.marketplace_text}>  Quick and Secure Transactions </h6>
+                        <h6 className={styles.marketplace_text}>  Participate in Real Asset-backed Funding </h6>
+                        <h6 className={styles.marketplace_text}>  Flexible Investment Options for any Budget </h6>
+                        <h6 className={styles.marketplace_text}>  Low-risk High Rewards Investment Opportunities </h6>
                     </div>
                 </div>
 
