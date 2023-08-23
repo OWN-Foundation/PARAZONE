@@ -1,10 +1,10 @@
 
 .main{
-  @apply     flex bg-[#1C1C21] p-20 flex-col justify-center items-center  ;
+  @apply  flex bg-gradient-to-br from-[#300046] to-[#8800C7] p-20 flex-col justify-center items-center  ;
 }
 
 .main_container{
-  @apply flex justify-center items-center flex-row max-xl:flex-col bg-[#1C1C21] gap-40 max-xl:gap-10;
+  @apply flex justify-center items-center flex-row max-xl:flex-col  gap-40 max-xl:gap-10;
 }
 
 .main_number{
@@ -17,11 +17,11 @@
 
 
 .address_text{
-  @apply text-[#87A2BC] ;
+  @apply text-[#FFF] ;
 }
 
 .button_container{
-  @apply flex flex-row bg-[#1C1C21]  pt-10 gap-14  max-xl:hidden;
+  @apply flex flex-row  pt-10 gap-14  max-xl:hidden;
 }
 
 .button{
@@ -31,7 +31,7 @@
   @apply w-[134px] h-[46px];
 }
 .address_button{
-  @apply  rounded-lg border border-[#87A2BC] flex flex-row items-center px-2 ;
+  @apply  rounded-lg border border-[#FFF] flex flex-row items-center px-2 ;
 }
 
 .pz_text{

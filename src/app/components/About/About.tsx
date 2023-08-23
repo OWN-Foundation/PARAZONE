@@ -22,7 +22,7 @@ const About = () => {
                      defaultStyleForName={false}
                      classNameForName={styles.pz_text}
                      classNameButton={styles.pz_button}
-                     name="PZ"
+                     name="PZT"
                  />
                </div>
                  <h3 className={styles.annotation}> Total Token Supply </h3>
@@ -38,14 +38,14 @@ const About = () => {
                      defaultStyleForName={false}
                      classNameForName={styles.pz_text}
                      classNameButton={styles.pz_button}
-                     name="PZ"
+                     name="PZT"
                  />
                  </div>
                  <h3  className={styles.annotation}> Total Seed Supply </h3>
 
              </div>
 
-             <div> <h6 className={styles.main_number}> 500M </h6>   <h3  className={styles.annotation}> Total Seed Supply </h3> </div>
+             <div> <h6 className={styles.main_number}> 1M </h6>   <h3  className={styles.annotation}> Total Seed Supply </h3> </div>
              <div> <h6 className={styles.main_number}> 10.000+ </h6>   <h3  className={styles.annotation}> Raised </h3> </div>
 
 
