@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styles from "./Content.module.scss";
+import styles from "./content.module.scss";
 import Button from "../Button/Button";
 import background from "../../../../public/images/background.png";
 import Image from "next/image";

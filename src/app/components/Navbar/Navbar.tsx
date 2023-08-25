@@ -4,7 +4,7 @@ import styles from './navbar.module.scss'
 import Link from "next/link";
 import Image from "next/image";
 import Button from "../Button/Button";
-import hamburger from "../../../../../Parazone/public/images/humburger.svg";
+import hamburger from "../../../../public/images/humburger.svg"
 import miniLogo from "../../../../public/images/miniLogo.svg";
 function Navbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
