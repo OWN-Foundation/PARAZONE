@@ -1,15 +1,15 @@
 import React, { useState } from "react";
-import styles from "../Pop-Up/popUp.module.scss";
+import styles from "./popUp.module.scss";
 import { useForm, ValidationError } from "@formspree/react";
 import { setTimeout } from "timers";
 
 function Popup() {
-  const [state, handleSubmit] = useForm("process.env.REACT_APP_FORMSPREE_ID");
+  const [state, handleSubmit] = useForm("xoqoedqr");
   const [isPopupOpen, setIsPopupOpen] = useState(true);
 
   const handleClose = () => {
     setIsPopupOpen(false);
-  };
+  };  
   function LandingBody() {
     setTimeout(() => {
       handleClose();
