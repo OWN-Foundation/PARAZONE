@@ -7,7 +7,7 @@
 }
 
 .info_container {
-  @apply  sm:w-[400px] md:h-[400px] absolute top-1/3 left-0 flex max-sm:w-full flex-col   z-40 backdrop-blur-md md:rounded-r-[20px] justify-between p-4 lg:w-[600px] xl:w-[800px] xl:p-10;
+  @apply  sm:w-[400px] md:h-[400px] absolute top-1/3 left-0 flex max-sm:w-full flex-col   z-40 backdrop-blur-sm md:rounded-r-[20px] justify-between p-4 lg:w-[600px] xl:w-[800px] xl:p-10;
 }
 
 .launch_button {
