@@ -64,7 +64,7 @@ const Info = () => {
                     className={styles.bank}
                     />
 
-                        <h3 className={styles.headline_text_marketplace}> Parazone Offers </h3>
+                        <h3 className={styles.headline_text_marketplace}> Parazone helps to </h3>
                         <h6 className={styles.marketplace_text}> Raise Full Investments Within Weeks  </h6>
                         <h6 className={styles.marketplace_text}> Simultaneously Implement Several Projects </h6>
                         <h6 className={styles.marketplace_text}> Global Market Exposure and Visibility </h6>
@@ -93,7 +93,7 @@ const Info = () => {
                             className={styles.bank}
                         />
 
-                        <h3 className={styles.headline_text_marketplace}> Parazone Offers </h3>
+                        <h3 className={styles.headline_text_marketplace}> Parazone helps to </h3>
                         <h6 className={styles.marketplace_text}>  Globally Diversified Portfolio </h6>
                         <h6 className={styles.marketplace_text}>  Quick and Secure Transactions </h6>
                         <h6 className={styles.marketplace_text}>  Participate in Real Asset-backed Funding </h6>
