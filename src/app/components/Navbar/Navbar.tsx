@@ -6,8 +6,15 @@ import Image from "next/image";
 import Button from "../Button/Button";
 import hamburger from "../../../../public/images/humburger.svg"
 import miniLogo from "../../../../public/images/miniLogo.svg";
+import Popup from "../Pop-Up/PopUp"
+
 function Navbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const [isPopupOpen, setIsPopupOpen] = useState(false);
+
+    const togglePopup = () => {
+        setIsPopupOpen(!isPopupOpen);
+    };
 
 
     // const navigation = [
@@ -53,17 +60,17 @@ function Navbar() {
                         </Link>
                     </li>
                     <li className={styles.li}>
-                        <Link href="#">
                             <Button
                                 defaultStyleForButton={false}
                                 defaultStyleForName={false}
                                 classNameButton={styles.launch_button}
+                                onClick={togglePopup}
                                 name="Launch App"
                             />
-                        </Link>
                     </li>
                 </ul>
             </div>
+            {isPopupOpen && <Popup />}
         </div>
     );
 }
