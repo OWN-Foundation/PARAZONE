@@ -26,7 +26,7 @@ const RootLayout = ({
         <>
 
             <div className="flex flex-col justify-between min-h-screen bg-white ">
-                <Head title={title}/>
+                <Head />
                 <Navbar/>
 
 

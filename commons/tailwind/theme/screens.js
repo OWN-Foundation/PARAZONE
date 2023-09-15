@@ -5,6 +5,7 @@ const screens = {
   'max-lg': {raw: 'not all and (min-width: 1024px)'},
   'max-xl': {raw: 'not all and (min-width: 1280px)'},
   'max-xxl': {raw: 'not all and (min-width: 1380px)'},
+  'min-mds': {raw: ' (max-width:769px)'},
   xs: '320px',
   sm: '641px',
   md: '769px',

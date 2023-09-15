@@ -53,7 +53,7 @@ const Info = () => {
                         height={290}
                         className={styles.picture}
                     />
-                    <h2 className={styles.headline_text}> Real-estate Developers </h2>
+                    <h2 className={`${styles.headline_text} ${styles.realko}`}> Real-estate Developers </h2>
 
                     <div className={styles.marketplace_container}>
                     <Image
