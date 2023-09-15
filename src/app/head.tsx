@@ -9,20 +9,15 @@ export default function Head({ title }: { title?: string }) {
             <link rel="icon" type="image/png"/>
 
             {/* Add the Google Tag Manager script */}
-            <Script
-                async
-                src="https://www.googletagmanager.com/gtag/js?id=G-93NC1TJNLV"
-            />
-            <Script
-                dangerouslySetInnerHTML={{
-                    __html: `
-                        window.dataLayer = window.dataLayer || [];
-                        function gtag(){dataLayer.push(arguments);}
-                        gtag('js', new Date());
-                        gtag('config', 'G-93NC1TJNLV');
-                    `
-                }}
-            />
+            <script async src="https://www.googletagmanager.com/gtag/js?id=G-3T70STR0GB"></script>
+            <script dangerouslySetInnerHTML={{
+                __html: `
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config', 'G-3T70STR0GB');
+                `
+            }}></script>
             
             <link rel="icon" href="/favicon.ico"/>
         </>
