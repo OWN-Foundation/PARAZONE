@@ -1,5 +1,5 @@
 import Script from "next/script";
-import logo from "../../public/images/miniLogo.svg"
+import logo from "../../public/images/miniLogo.svg";
 
 export default function Head({ title }: { title?: string }) {
     return (
@@ -19,8 +19,7 @@ export default function Head({ title }: { title?: string }) {
                 `
             }}></script>
 
-            
-            <link rel="icon" href={logo} type="image/svg+xml"/>
+            <link rel="icon" type="image/svg+xml" href={logo} />
         </>
     )
 }
