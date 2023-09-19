@@ -1,14 +1,20 @@
 .header {
-  @apply max-lg:pl-20 lg:pl-40 pb-10 pt-10 lg:pr-40 z-40 flex items-center justify-between bg-black flex-row no-underline 		;
-
+  @apply absolute  max-lg:pl-20 lg:pl-40  lg:pr-40 z-40 flex items-center justify-between  no-underline w-full pt-10;
+  background-color: transparent;
 }
 
 .navbar {
-  @apply flex lg:flex-row justify-end items-center gap-8 px-8 py-8 font-poppins text-white  items-center;
+  @apply   justify-end items-center gap-8 px-8 py-0 font-poppins text-white items-center  ;
+
 }
 
-.li{
-  @apply text-white font-poppins text-0-8 font-normal leading-normal  cursor-pointer   max-lg:hidden;
+.li {
+  @apply text-white font-poppins text-0-8 font-normal leading-normal cursor-pointer max-lg:hidden;
+}
+
+
+.li_container{
+  @apply w-[300px] lg:flex lg:flex-row max-lg:flex-col items-center justify-between;
 }
 
 .paper_button{
@@ -47,7 +53,7 @@
 @media (max-width: 1024px) {
 
   .menuOpen {
-    @apply flex flex-col items-start justify-start fixed top-1/4 left-0 right-0 bottom-0 bg-black z-40 ;
+    @apply flex  items-start justify-start fixed top-1/4 left-0 right-0 bottom-0 bg-black z-40 ;
   }
 
   .menuOpen .li {

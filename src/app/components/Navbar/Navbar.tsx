@@ -36,19 +36,23 @@ function Navbar() {
                         <Image src={logo} alt={"parazone logo"} width={140} height={30} />
                     </div>
                 </Link>
+
+
                 <div className={styles.hamburger}>
                     <Image src={ miniLogo} alt={"logo"} width={30} height={30}  />
                 <button className={styles.burgerButton} onClick={toggleMenu}>
                         <Image src={hamburger} alt={"menu"} width={30} height={30} />
                 </button>
                 </div>
+                <div className={styles.li_container}>
 
-                <ul className={`${styles.navbar} ${isMenuOpen ? styles.menuOpen : ""}`}>
+                <ul className={`${styles.li_container} ${isMenuOpen ? styles.menuOpen : ""}`}>
                     {/* {navigation.map((item, index) => (
                         <li key={index} className={styles.li}>
                             <Link href={item.href}>{item.name}</Link>
                         </li>
                     ))} */}
+
                     <li className={styles.li}>
                         <Link href="https://docs.parazone.io/">
                             <Button
@@ -68,7 +72,9 @@ function Navbar() {
                                 name="Launch App"
                             />
                     </li>
+
                 </ul>
+            </div>
             </div>
             {isPopupOpen && <Popup />}
         </div>

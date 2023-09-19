@@ -1,9 +1,9 @@
 .main {
-  @apply relative  bg-black mix-blend-darken max-xl:h-[500px];
+  @apply relative  bg-black mix-blend-darken max-xl:h-[500px]  w-full h-full ;
 }
 
 .image_container {
-  @apply relative bg-black  mix-blend-color-dodge  max-xl:h-[500px];
+  @apply relative bg-black  mix-blend-color-dodge  max-xl:h-[500px] w-full h-full;
 }
 
 .info_container {
