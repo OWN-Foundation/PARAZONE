@@ -1,5 +1,6 @@
 const fontFamily = {
-    poppins: 'var(--poppins)'
+    poppins: 'var(--poppins)',
+    meta:'var(--meta)'
 }
 
 module.exports = fontFamily
