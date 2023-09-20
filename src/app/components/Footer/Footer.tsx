@@ -1,15 +1,15 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import {useRouter} from "next/router";
 import styles from './footer.module.scss'
 import logo from "../../../../public/images/footerlogo.png"
 import telegram from "../../../../public/images/telegram.svg";
 import discord from "../../../../public/images/discord.svg";
 import vector from "../../../../public/images/vector.svg";
+
+// ... rest of your code
+
 function Footer() {
-  const router = useRouter();
-  const currentRoute = router.pathname;
   return (
       <footer className={styles.footer}>
 

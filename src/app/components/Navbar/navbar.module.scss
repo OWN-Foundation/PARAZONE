@@ -14,7 +14,7 @@
 
 
 .li_container{
-  @apply w-[300px] lg:flex lg:flex-row max-lg:flex-col items-center justify-between;
+  @apply lg:flex lg:flex-row max-lg:flex-col items-center justify-between gap-8;
 }
 
 .paper_button{

@@ -1,7 +1,4 @@
 /** @type {import('next').NextConfig} */
-// const withPlugins = require('next-compose-plugins');
-// import withImages from 'next-images';
-
 const nextConfig = {
     reactStrictMode: false,
     async rewrites() {
@@ -12,10 +9,6 @@ const nextConfig = {
             },
         ]
     },
-    experimental: {
-        appDir: true,
-    },
 }
 
-
-module.exports = nextConfig
+module.exports = nextConfig;
