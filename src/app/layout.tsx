@@ -7,6 +7,9 @@ import useSWR from 'swr'
 import {useSelector} from "react-redux";
 
 
+// @ts-nocheck
+// @jsxImportSource client
+
 const RootLayout = ({
                         children,
                         title,
