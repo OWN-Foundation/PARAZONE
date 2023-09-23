@@ -1,10 +1,10 @@
 .header {
-  @apply max-lg:pl-20 lg:pl-40 pb-10 pt-10 lg:pr-40 z-40 flex items-center justify-between bg-black flex-row no-underline 		;
+  @apply absolute max-lg:pl-20 lg:pl-40 pb-10 pt-10 lg:pr-40 z-40 flex items-center justify-between  flex-row  gap-40 		;
 
 }
 
 .navbar {
-  @apply flex lg:flex-row justify-end items-center gap-8 px-8 py-8 font-poppins text-white  items-center;
+  @apply flex lg:flex-row  items-center gap-8 px-8 py-8 font-poppins text-white  items-center justify-between;
 }
 
 .li{

@@ -17,12 +17,12 @@ function Navbar() {
     };
 
 
-    // const navigation = [
-    //     { name: "Community", href: "/community", current: false },
-    //     { name: "Developers", href: "/developers", current: false },
-    //     { name: "Blog", href: "/blog", current: false },
-    //     { name: "FAQ", href: "/FAQ", current: false },
-    // ];
+    const navigation = [
+         { name: "About", href: "about", current: false },
+         { name: "How It Works", href: "how it works", current: false },
+         { name: "RoadMap", href: "roadmap", current: false },
+         { name: "Global", href: "global", current: false },
+    ];
 
 
 
@@ -47,11 +47,11 @@ function Navbar() {
                 </div>
 
                 <ul className={`${styles.navbar} ${isMenuOpen ? styles.menuOpen : ""}`}>
-                    {/* {navigation.map((item, index) => (
+                     {navigation.map((item, index) => (
                         <li key={index} className={styles.li}>
                             <Link href={item.href}>{item.name}</Link>
                         </li>
-                    ))} */}
+                    ))}
                     <li className={styles.li}>
                         <Link href="https://docs.parazone.io/">
                             <Button
