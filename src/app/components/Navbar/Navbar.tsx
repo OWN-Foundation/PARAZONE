@@ -16,16 +16,11 @@ function Navbar() {
         setIsPopupOpen(!isPopupOpen);
     };
 
-
     const navigation = [
-         { name: "About", href: "about", current: false },
-         { name: "RoadMap", href: "roadmap", current: false },
+        { name: "About", href: "about", current: false },
+        { name: "RoadMap", href: "roadmap", current: false },
         { name: "Global", href: "roadmap", current: false },
-
     ];
-
-
-
 
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
@@ -41,13 +36,14 @@ function Navbar() {
                 </Link>
                 <div className={styles.hamburger}>
                     <Image src={ miniLogo} alt={"logo"} width={30} height={30}  />
-                <button className={styles.burgerButton} onClick={toggleMenu}>
+                    <button className={styles.burgerButton} onClick={toggleMenu}>
                         <Image src={hamburger} alt={"menu"} width={30} height={30} />
-                </button>
+                    </button>
                 </div>
 
+                {/* Move the menu inside the .menuOpen class */}
                 <ul className={`${styles.navbar} ${isMenuOpen ? styles.menuOpen : ""}`}>
-                     {navigation.map((item, index) => (
+                    {navigation.map((item, index) => (
                         <li key={index} className={styles.li}>
                             <Link href={item.href}>{item.name}</Link>
                         </li>
@@ -63,13 +59,13 @@ function Navbar() {
                         </Link>
                     </li>
                     <li className={styles.li}>
-                            <Button
-                                defaultStyleForButton={false}
-                                defaultStyleForName={false}
-                                classNameButton={styles.launch_button}
-                                onClick={togglePopup}
-                                name="Launch App"
-                            />
+                        <Button
+                            defaultStyleForButton={false}
+                            defaultStyleForName={false}
+                            classNameButton={styles.launch_button}
+                            onClick={togglePopup}
+                            name="Launch App"
+                        />
                     </li>
                 </ul>
             </div>

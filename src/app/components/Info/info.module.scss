@@ -55,11 +55,11 @@
 }
 
 .marketplace_container{
-  @apply flex justify-end flex-col w-[496px] gap-4 p-6 pb-16 max-md:p-4 max-md:pl-10;
+  @apply flex justify-end flex-col w-[496px] gap-4 p-8 pb-16 max-md:p-4 max-md:pl-10  ;
 }
 
 
 .marketplace_text{
-  @apply text-[#BBB] text-[16px] font-poppins;
+  @apply text-[#BBB] text-[16px] font-poppins max-md:text-[14px];
   font-weight: 300;
 }

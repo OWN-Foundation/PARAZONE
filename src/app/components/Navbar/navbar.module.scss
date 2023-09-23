@@ -39,15 +39,15 @@
 }
 
 .hamburger {
-  @apply flex lg:hidden w-full justify-between;
+  @apply flex lg:hidden w-full justify-between gap-60;
 }
 
 @media (max-width: 1024px) {
-
   .menuOpen {
-    @apply flex flex-col items-start justify-start fixed top-1/4 left-0 right-0 bottom-0 bg-black z-40 ;
+    @apply fixed top-20 left-0 right-0 bottom-0 flex flex-col  z-40;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
   }
-
   .menuOpen .li {
     @apply flex items-start justify-start w-full pl-4;
     margin: 2px 0;
