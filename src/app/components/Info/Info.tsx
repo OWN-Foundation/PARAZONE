@@ -20,8 +20,9 @@ const Info = () => {
 
            <div className={styles.text_container}>
               <h2 className={styles.headline}>  How it works </h2>
-               <h1 className={styles.text}> REAL ESTATE DEVELOPERS - can easily upload their projects to the Parazone IDO Launchpad. This process includes providing detailed project plans and relevant documentation. Once uploaded, the project is tokenized using smart contracts, dividing the project into digital tokens that represent a share of project. Smart contracts execute transparent and secure transactions. All recorded on the blockchain, ensuring a tamper-proof and auditable record. </h1>
-               <h1 className={styles.text}> INVESTORS / TRADERS -  can browse real estate projects on the Parazone Application and purchase project tokens. This direct process allows users to invest in real estate projects without the traditional barriers. Investors have the flexibility to curate a diversified real estate portfolio by acquiring tokens of different projects. This allows for risk mitigation and exposure to a range of property types and locations. The Parazone Application provides real-time insights into property performance, token valuations and potential earnings. </h1>
+               <h1 className={styles.text}>  Real estate developers can easily upload their projects to Parazone's IDO Launchpad. They provide project details, and the system tokenizes the project using smart contracts, creating digital tokens representing shares in the project. All transactions are secure and recorded on the blockchain for transparency.
+               </h1>
+               <h1 className={styles.text}> Investors/traders can browse and buy project tokens on the Parazone DApp, making real estate investment more accessible. They can diversify their portfolio by acquiring tokens from various projects, reducing risk and gaining exposure to different property types and locations. The app offers real-time data on property performance, token values, and potential earnings. </h1>
            </div>
 
     <Image

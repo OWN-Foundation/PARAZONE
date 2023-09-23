@@ -1,14 +1,14 @@
 .header {
-  @apply absolute max-lg:pl-20 lg:pl-40 pb-10 pt-10 lg:pr-40 z-40 flex items-center justify-between  flex-row  gap-40 		;
+  @apply absolute max-lg:pl-20 lg:pl-40 pb-10 pt-10 lg:pr-40 z-40 flex items-center justify-between  flex-row 	flex gap-80	;
 
 }
 
 .navbar {
-  @apply flex lg:flex-row  items-center gap-8 px-8 py-8 font-poppins text-white  items-center justify-between;
+  @apply flex lg:flex-row  items-center gap-8 px-8 py-8 font-poppins text-white  items-center justify-between gap-10;
 }
 
 .li{
-  @apply text-white font-poppins text-0-8 font-normal leading-normal  cursor-pointer   max-lg:hidden;
+  @apply text-white font-poppins text-0-8 font-normal leading-normal  cursor-pointer   max-lg:hidden ;
 }
 
 .paper_button{
@@ -19,8 +19,6 @@
 .launch_button{
   @apply  rounded-md w-[136px] h-[46px] bg-purple ;
 }
-
-
 
 @media (max-width: 1024px) {
   .navbar {

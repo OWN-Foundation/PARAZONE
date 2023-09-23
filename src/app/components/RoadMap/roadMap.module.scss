@@ -1,5 +1,5 @@
 .main{
-  @apply  flex  flex-col items-center justify-center  h-[800px]  bg-[#1C1C21] overflow-auto    ;
+  @apply  flex  flex-col items-center justify-center  h-[800px]  bg-[#1C1C21] max-lg:overflow-auto    ;
 }
 
 .roadmap {
@@ -49,7 +49,11 @@
 }
 
 .time_text_1{
-  @apply   text-[#BBB] text-[20px] font-poppins text-center p-10  font-medium hover:text-purple  cursor-pointer absolute mt-[80px] w-[200px];
+  @apply   text-[#BBB] text-[20px] font-poppins text-center p-10  font-medium hover:text-purple   cursor-pointer absolute mt-[80px] w-[200px];
+}
+
+.time_text_pinned{
+  @apply   text-purple  text-[20px] font-poppins text-center p-10  font-medium   cursor-pointer absolute mt-[80px] w-[200px];
 }
 
 .time_text{

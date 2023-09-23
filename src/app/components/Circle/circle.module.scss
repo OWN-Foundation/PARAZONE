@@ -1,4 +1,42 @@
-.circle{
-  @apply cursor-pointer;
+/* YourStyles.module.css */
+
+.circle {
+  /* Your existing styles here */
+  position: relative; /* Ensure proper positioning for absolute elements */
 }
 
+.light {
+  position: absolute;
+  top: -2px; /* Adjust the position as needed */
+  left: -2px; /* Adjust the position as needed */
+  width: 100%;
+  height: 100%;
+  stroke: rgba(164, 76, 211, 0.5); /* Adjust the color and opacity */
+  strokeOpacity: 0;
+  strokeWidth: 2;
+  fill: none;
+  animation: lightAnimation 2s ease-in-out infinite; /* Apply the lightAnimation infinitely */
+}
+
+@keyframes lightAnimation {
+  0% {
+    strokeOpacity: 0; /* Initial opacity */
+    r: 6.5; /* Initial size */
+  }
+  25% {
+    strokeOpacity: 0.5; /* Fading in */
+    r: 7.5; /* Growing size */
+  }
+  50% {
+    strokeOpacity: 0; /* Fading out */
+    r: 8.5; /* Growing size */
+  }
+  75% {
+    strokeOpacity: 0.5; /* Fading in */
+    r: 7.5; /* Shrinking size */
+  }
+  100% {
+    strokeOpacity: 0; /* Fading out */
+    r: 6.5; /* Back to the initial size */
+  }
+}

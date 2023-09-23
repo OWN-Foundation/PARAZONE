@@ -19,9 +19,9 @@ function Navbar() {
 
     const navigation = [
          { name: "About", href: "about", current: false },
-         { name: "How It Works", href: "how it works", current: false },
          { name: "RoadMap", href: "roadmap", current: false },
-         { name: "Global", href: "global", current: false },
+        { name: "Global", href: "roadmap", current: false },
+
     ];
 
 

@@ -38,7 +38,7 @@ const RoadMap = () => {
                         Validate Proof of Concept, Early Adopters and Community Feedback
                         </h6>
                         <div className={styles.circle_1}></div>
-                        <h2 className={styles.time_text_1}>2st Milestone</h2>
+                        <h2 className={styles.time_text_pinned}>2st Milestone</h2>
 
                     </div>
 
@@ -92,24 +92,24 @@ const RoadMap = () => {
 </div>
 
 
-            <div className={styles.arrow_container}>
-                <Image
-                    src={arrow}
-                    alt="image"
-                    width={40}
-                    height={40}
-                    className={"cursor-pointer"}
-                />
-                <Image
-                    src={arrow}
-                    alt="image"
-                    width={40}
-                    height={40}
-                    style={{ transform: "rotate(180deg)" }}
-                    className={"cursor-pointer"}
-                />
+            {/*<div className={styles.arrow_container}>*/}
+            {/*    <Image*/}
+            {/*        src={arrow}*/}
+            {/*        alt="image"*/}
+            {/*        width={40}*/}
+            {/*        height={40}*/}
+            {/*        className={"cursor-pointer"}*/}
+            {/*    />*/}
+            {/*    <Image*/}
+            {/*        src={arrow}*/}
+            {/*        alt="image"*/}
+            {/*        width={40}*/}
+            {/*        height={40}*/}
+            {/*        style={{ transform: "rotate(180deg)" }}*/}
+            {/*        className={"cursor-pointer"}*/}
+            {/*    />*/}
 
-            </div>
+            {/*</div>*/}
 
 
 
