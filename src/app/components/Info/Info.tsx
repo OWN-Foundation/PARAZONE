@@ -57,13 +57,7 @@ const Info = () => {
                     <h2 className={`${styles.headline_text} ${styles.realko}`}> Real-estate Developers </h2>
 
                     <div className={styles.marketplace_container}>
-                    <Image
-                    src={bank}
-                    alt={"bank"}
-                    width={74}
-                    height={56}
-                    className={styles.bank}
-                    />
+
 
                         <h3 className={styles.headline_text_marketplace}> Parazone helps to </h3>
                         <h6 className={styles.marketplace_text}> Raise Full Investments Within Weeks  </h6>
@@ -86,13 +80,7 @@ const Info = () => {
                     <h2 className={styles.headline_text}> Investors / Traders </h2>
 
                     <div className={styles.marketplace_container}>
-                        <Image
-                            src={bank}
-                            alt={"bank"}
-                            width={74}
-                            height={56}
-                            className={styles.bank}
-                        />
+
 
                         <h3 className={styles.headline_text_marketplace}> Parazone helps to </h3>
                         <h6 className={styles.marketplace_text}>  Globally Diversified Portfolio </h6>
